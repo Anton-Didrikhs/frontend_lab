@@ -1,0 +1,15 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(public)/quiz/list/page": "app/(public)/quiz/list/page.js",
+  "/(public)/user/register/page": "app/(public)/user/register/page.js",
+  "/(public)/quiz/list/[id]/page": "app/(public)/quiz/list/[id]/page.js",
+  "/(public)/user/verify/page": "app/(public)/user/verify/page.js",
+  "/(public)/user/signin/page": "app/(public)/user/signin/page.js",
+  "/page": "app/page.js",
+  "/(protected)/quiz/create/page": "app/(protected)/quiz/create/page.js",
+  "/(protected)/quiz/edit/[id]/page": "app/(protected)/quiz/edit/[id]/page.js",
+  "/(protected)/user/profile/page": "app/(protected)/user/profile/page.js",
+  "/(protected)/quiz/edit/page": "app/(protected)/quiz/edit/page.js",
+  "/(protected)/user/signout/page": "app/(protected)/user/signout/page.js"
+}
