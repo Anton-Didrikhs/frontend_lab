@@ -17,6 +17,8 @@
 /.next/
 /out/
 
+.firebase
+
 # production
 /build
 
@@ -46,3 +48,5 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+

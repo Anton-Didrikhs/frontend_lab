@@ -1,4 +1,5 @@
 import Image from "next/image";
+import LineChart from "./LineChart";
 
 export default function Home() {
   return (
@@ -18,7 +19,11 @@ export default function Home() {
           </li>
           <li>Start by logging in/registering, or try one of the pre-made quizzes.</li>
         </ol>
-
+        <LineChart 
+          data={[1, 5, 2, 4, 3, 8, 7, 9, 3, 5, 7, 6]} 
+          stroke="gray" 
+          background="white"
+        />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
       </footer>
